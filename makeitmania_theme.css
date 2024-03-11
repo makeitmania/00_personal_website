@@ -38,7 +38,6 @@
     --code-inline-border:#a5b4fc;
     --code-inline-color:#6366f1;
     --color-bg-yellow:#;
-    --link-arrow: url('https://code.benjaminhoppe.co/owl/images/arrow-up-right-light.svg') !important;
 }
 .theme-dark{
     --bg:#1E1E1E;
@@ -57,7 +56,6 @@
     --code-inline-bg:#0b090f;
     --code-inline-border:#493d65;
     --code-inline-color:#6366f1;
-    --link-arrow: url("https://code.benjaminhoppe.co/owl/images/arrow-up-right-dark.svg") !important;
 }
 body{
     background-color:var(--bg)!important
@@ -286,7 +284,7 @@ h3,h3.notion-heading{
 }
 
 .notion-semantic-string .link:hover {
-  opacity: 0.5 !important;
+  opacity: 0.8 !important;
 }
 
 .notion-semantic-string .link {
