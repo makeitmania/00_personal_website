@@ -276,29 +276,17 @@ h3,h3.notion-heading{
 .notion-semantic-string .link {
   border-bottom: none !important;
   opacity: 1 !important;
+  text-decoration: underline !important;
   transition: opacity 0.2s ease-in-out !important;
   font-family: "Fanwood Text", serif;
   font-weight: 400;
   font-style: italic;
   cursor: pointer;
   color: -webkit-link !important;
-  text-decoration: underline;
 }
-
-.notion-semantic-string .link:after {
-  display: inline-block !important;
-  content: " " !important;
-  background-image: var(--link-arrow) !important;
-  background-size: 20px 20px !important;
-  width: 20px !important;
-  height: 20px !important;
-  margin-left: 0.09rem !important;
-  vertical-align: middle !important;
-}
-
 
 .notion-semantic-string .link:hover {
-  opacity: 0.3 !important;
+  opacity: 0.5 !important;
 }
 
 .notion-semantic-string .link {
