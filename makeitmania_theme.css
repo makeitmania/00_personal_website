@@ -9,7 +9,6 @@
 .theme-light .notion-image {
   filter:invert(1) hue-rotate(180deg)!important;
 }
-
 ::selection {
   background: #FFFF00;
   color: #1E1E1E;
@@ -38,6 +37,7 @@
     --code-inline-bg:#e0e7ff;
     --code-inline-border:#a5b4fc;
     --code-inline-color:#6366f1;
+    --color-bg-yellow:#;
     --link-arrow: url('https://code.benjaminhoppe.co/owl/images/arrow-up-right-light.svg') !important;
 }
 .theme-dark{
