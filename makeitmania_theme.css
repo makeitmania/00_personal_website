@@ -286,7 +286,7 @@ h3,h3.notion-heading{
 
 .notion-semantic-string .link:hover {
   opacity: 0.3 !important;
-  text-decoration: underline !important;
+  text-decoration: none !important;
 }
 
 .notion-checkbox.checked{
