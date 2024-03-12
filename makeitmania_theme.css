@@ -27,10 +27,10 @@
     --cta-hover-bg:#;
     --accent-bg:#ededef;
     --pill-bg:rgba(0,0,0,.06);
-    --border:#a4a4a4;
+    --border:#CCCDCD;
     --cta-color:#fc5f2e;
-    --navbar-color:#a4a4a4;
-    --text-color:#a4a4a4;
+    --navbar-color:#CCCDCD;
+    --text-color:#CCCDCD;
     --heading-color:#1E1E1E;
     --gallery-heading-color:#fff;
     --code-block-bg:rgba(131,105,211,.08);
@@ -46,10 +46,10 @@
     --cta-hover-bg:#;
     --accent-bg:#1d1d1d;
     --pill-bg:hsla(0,0%,100%,.1);
-    --border:#a4a4a4;
+    --border:#CCCDCD;
     --cta-color:#000;
-    --navbar-color:#a4a4a4;
-    --text-color:#a4a4a4;
+    --navbar-color:#CCCDCD;
+    --text-color:#CCCDCD;
     --heading-color:#fff;
     --gallery-heading-color:#fff;
     --code-block-bg:rgba(131,105,211,.08);
