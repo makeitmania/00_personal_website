@@ -9,6 +9,7 @@
 .theme-light .notion-image {
   filter:invert(1) hue-rotate(180deg)!important;
 }
+
 ::selection {
   background: #FFFF00;
   color: #1E1E1E;
@@ -39,6 +40,7 @@
     --code-inline-color:#6366f1;
     --color-bg-yellow:#;
 }
+
 .theme-dark{
     --bg:#1E1E1E;
     --navbar-bg:--bg;
@@ -57,6 +59,7 @@
     --code-inline-border:#493d65;
     --code-inline-color:#6366f1;
 }
+
 body{
     background-color:var(--bg)!important
 }
@@ -270,7 +273,7 @@ h3,h3.notion-heading{
     color:var(--text-color)!important
 }
 
-/* Link styles */
+/*  styles */
 .notion-semantic-string .link {
   border-bottom: none !important;
   opacity: 1 !important;
@@ -278,21 +281,14 @@ h3,h3.notion-heading{
   cursor: pointer;
   font-weight: 600;
   color: var(--heading-color) !important;
-}
-
-.notion-semantic-string .link:hover {
-  opacity: 0.8 !important;
   text-decoration: underline !important;
 }
 
-.notion-semantic-string .link {
-    border-bottom: 1px solid var(--color-text-default-light);
-    transition: border-color .1s ease-in,opacity .1s ease-in
+.notion-semantic-string .link:hover {
+  opacity: 0.3 !important;
+  text-decoration: underline !important;
 }
 
-.notion-semantic-string .link:hover {
-    opacity: 1
-}
 .notion-checkbox.checked{
     background-color:var(--heading-color)!important
 }
