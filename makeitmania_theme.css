@@ -459,30 +459,32 @@ h3,h3.notion-heading{
 .notion-collection-list{
     border: 0px solid var(--border)!important;
     border-radius: 0px !important;
-    padding:10px!important
+    padding:0px!important
     font-size:1rem;
+    background-color:#F9F9F9!important
 }
+
 .notion-collection-list__item{
     align-items:flex-start!important;
     flex-direction:column!important;
     justify-content:center!important;
     margin:0px!important;
-    padding:10px 10px!important
+    padding:0px 0px!important
 }
 .notion-collection-list__item:last-of-type{
     border-bottom:0!important
 }
 .notion-collection-list__item:hover{
-    background-color:var(--accent-bg)!important;
+    background-color:var(--bg)!important;
 }
 .notion-collection-list__item:last-of-type:hover{
     border-bottom:0!important
 }
 .theme-light .notion-collection-list__item:hover .notion-pill{
-    background-color:#d4d5d9!important
+    background-color:var(--bg)!important
 }
 .theme-dark .notion-collection-list__item:hover .notion-pill{
-    background-color:hsla(0,0%,100%,.1)!important
+    background-color:var(--bg)!important
 }
 .notion-collection-list__item-content{
     flex-direction:column!important
@@ -491,19 +493,22 @@ h3,h3.notion-heading{
     color:var(--text-color)!important
 }
 .notion-collection-list__item-property:first-child{
-    max-width:600px!important;
-    padding: 0px 0!important;
+    max-width:0px!important;
 }
 .notion-collection-list__item-property:first-child .notion-semantic-string{
-    white-space:normal!important;
     display: none!important;
 }
 .notion-collection-list__item-property:first-child .notion-property.notion-property__text{
     max-width:none!important
 }
+
+.notion-collection-list__item-property:hover{
+    color: rgb(37 99 235) !important;
+}
+
 .notion-collection-list__item-property:nth-child(2){
+    bottom: -3px!important;
     position:absolute!important;
-    right: 16px!important;
 }
 .notion-collection-list__item-property:nth-child(2) .notion-semantic-string .date{
     color:var(--text-color)!important
@@ -512,7 +517,7 @@ h3,h3.notion-heading{
     display: none!important;
 }
 .notion-property__date{
-  font-size: .85rem!important;
+  font-size: .8rem!important;
 }
 
 @media (max-width:786px){
@@ -520,6 +525,7 @@ h3,h3.notion-heading{
     border-bottom:0!important
   }
   .notion-collection-list__item-property:nth-child(2){
+    bottom: 0px!important;
     position:absolute!important;
   }
 }
