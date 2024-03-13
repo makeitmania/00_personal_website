@@ -286,7 +286,7 @@ h3,h3.notion-heading{
 
 .notion-semantic-string .link:hover {
   text-decoration: none !important;
-  color: -webkit-link !important;
+  color: rgb(37 99 235) !important;
 }
 
 .notion-checkbox.checked{
