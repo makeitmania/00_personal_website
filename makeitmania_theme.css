@@ -520,9 +520,7 @@ h3,h3.notion-heading{
     border-bottom:0!important
   }
   .notion-collection-list__item-property:nth-child(2){
-    position:relative!important;
-    left: 200px!important;
-    bottom: 5px!important;
+    position:absolute!important;
   }
 }
 .notion-collection-list .notion-property__title span{
