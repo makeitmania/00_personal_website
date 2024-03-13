@@ -15,6 +15,10 @@
   color: #1E1E1E;
 }
 
+.bg-yellow{
+    background:rgba(var(--color-bg-yellow),1)
+}
+
 .highlighted-background {
   font-family: "Fanwood Text", serif;
   font-weight: 400;
