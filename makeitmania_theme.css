@@ -501,12 +501,11 @@ h3,h3.notion-heading{
     max-width:none!important
 }
 
-.notion-collection-list__item-property:hover{
+.notion-collection-list__item-property .notion-property__text:hover{
     color: rgb(37 99 235) !important;
 }
 
 .notion-collection-list__item-property:nth-child(2){
-    bottom: -3px!important;
     position:absolute!important;
 }
 .notion-collection-list__item-property:nth-child(2) .notion-semantic-string .date{
